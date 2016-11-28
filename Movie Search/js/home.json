@@ -1,0 +1,111 @@
+{
+	"new_upcoming": [
+		{
+			"img_url": "http://images.fandango.com/r100.9/ImageRenderer/184/271/nox.jpg/187530/images/masterrepository/fandango/187530/rogueone-posterart.jpg",
+			"title": "ROGUE ONE",
+			"caption": "A star wars story",
+			"type": "Action, Science fiction",
+			"Director": "Gareth Edwards"
+		},
+		{
+			"img_url": "http://images.fandango.com/r100.9/ImageRenderer/184/271/nox.jpg/185801/images/masterrepository/fandango/185801/moana57d7ae7e1548f.jpg",
+			"title": "Moana",
+			"caption": "monsters voyage",
+			"type": "Action, Adventure, Drama",
+			"Director": "Ron Clements, john musker"
+		},
+		{
+			"img_url": "http://images.fandango.com/r100.9/ImageRenderer/184/271/nox.jpg/175212/images/masterrepository/fandango/175212/fantasticbeasts-posterart.jpg",
+			"title": "Fantastic beasts",
+			"caption": "where to find them",
+			"type": "Action, Fantasy",
+			"Director": "Eddie Redmayne, Dan fogler"
+		},
+		{
+			"img_url": "http://images.fandango.com/r100.9/ImageRenderer/184/271/nox.jpg/186645/images/masterrepository/fandango/186645/doctorstrange-newposterart.jpg",
+			"title": "Doctor Strange",
+			"caption": "A Strange",
+			"type": "Action, Fantasy",
+			"Director": "Rachel McAdams, Chiwetal"
+		},
+		{
+			"img_url": "http://images.fandango.com/r100.9/ImageRenderer/184/271/nox.jpg/187530/images/masterrepository/fandango/187530/rogueone-posterart.jpg",
+			"title": "ROGUE ONE",
+			"caption": "A star wars story",
+			"type": "Action, Science fiction",
+			"Director": "Gareth Edwards"
+		},
+		{
+			"img_url": "http://images.fandango.com/r100.9/ImageRenderer/184/271/nox.jpg/185801/images/masterrepository/fandango/185801/moana57d7ae7e1548f.jpg",
+			"title": "Moana",
+			"caption": "monsters voyage",
+			"type": "Action, Adventure, Drama",
+			"Director": "Ron Clements, john musker"
+		},
+		{
+			"img_url": "http://images.fandango.com/r100.9/ImageRenderer/184/271/nox.jpg/175212/images/masterrepository/fandango/175212/fantasticbeasts-posterart.jpg",
+			"title": "Fantastic beasts",
+			"caption": "where to find them",
+			"type": "Action, Fantasy",
+			"Director": "Eddie Redmayne, Dan fogler"
+		},
+		{
+			"img_url": "http://images.fandango.com/r100.9/ImageRenderer/184/271/nox.jpg/186645/images/masterrepository/fandango/186645/doctorstrange-newposterart.jpg",
+			"title": "Doctor Strange",
+			"caption": "A Strange",
+			"type": "Action, Fantasy",
+			"Director": "Rachel McAdams, Chiwetal"
+		}
+	],
+	"weekend_box_office" : [
+		{
+			"img_url": "http://cps-static.rovicorp.com/2/Open/Warner_Home_Video_USA_892/Program/22730222/_9by13/_derived_jpg_q90_116x177_m0/fantastic-beasts-01.jpg",
+			"title": "Fantastic beasts where to find them",
+			"type": "Fantasy, Adventure",
+			"collection": "$74.4 million",
+			"rating" : "-283px"
+		},
+		{
+			"img_url": "http://cps-static.rovicorp.com/2/Open/20th_Century_Fox_39/Program/21013104/_2by3/_derived_jpg_q90_116x177_m0/Trolls-Poster.jpg",
+			"title": "Trolls 3",
+			"type": "Adventure, comedy",
+			"collection": "$17.4 million",
+			"rating" : "-210px"
+		},
+		{
+			"img_url": "http://cps-static.rovicorp.com/1/adg/cov75/drw200/w270/w27024phs9y.jpg",
+			"title": "Arrival",
+			"type": "Alien film",
+			"collection": "$12.1 million",
+			"rating" : "-168px"
+		},
+		{
+			"img_url": "http://cps-static.rovicorp.com/2/Open/TMDB4_2462/Program/27182716/_9by13/_derived_jpg_q90_116x177_m0/Hacksaw%20Ridge-2-3.jpg",
+			"title": "Hacksaw ridge",
+			"type": "Period film",
+			"collection": "$6.7 million",
+			"rating" : "-182px"
+		},
+		{
+			"img_url": "http://cps-static.rovicorp.com/2/Open/Warner_Brothers_360/Program/27232933/_9by13/_derived_jpg_q90_116x177_m0/27232933_TheAccountant_PA_2by3.jpg",
+			"title": "The Accountant",
+			"type": "Action Thriller",
+			"collection": "$2.2 million",
+			"rating" : "-140px"
+		},
+		{
+			"img_url": "http://cps-static.rovicorp.com/2/Open/NBC_Universal_30/Program/27077961/_9by13/_derived_jpg_q90_116x177_m0/27077961_Almost%20Christmas_PA.jpg",
+			"title": "Almost Christmas",
+			"type": "Ensemble film",
+			"collection": "$7.3 million",
+			"rating" : "-112px"
+		},
+		{
+			"img_url": "http://cps-static.rovicorp.com/2/Open/Mammoth_NYC_1957/Program/26716294/_9by13/_derived_jpg_q90_116x177_m0/Shut-In_PA_2x3.jpg",
+			"title": "Shut in",
+			"type": "Psycological Thriller",
+			"collection": "$1.6 million",
+			"rating" : "-56px"
+		}
+	]
+}

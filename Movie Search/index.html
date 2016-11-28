@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Search</title>
+	<link rel="icon" type="image/png" href="img/search_film.png" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7-dist/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/pagination/pagination.css" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	<link rel="stylesheet" type="text/css" href="css/movieSearch.css" />
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand navbar-logo" href="#"><img src="img/search_film.png"></a>
+        </div>
+        <!-- navbar list -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Hollywood</a></li>
+            <li><a href="#bollywood">Bollywood</a></li>
+            <li><a href="#tollywood">Tollywood</a></li>
+            <li><a href="#malluwood">Malluwood</a></li>
+            <li><a href="#koliwood">Koliwood</a></li>
+          </ul>
+          <!-- Navbar List END -->
+        </div>
+        <!-- Navbar form -->
+        <form class="navbar-form navbar-right">
+	        <div class="form-group">
+	          <div class="input-group">
+	            <div class="input-group-btn">
+	              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
+	              <ul class="dropdown-menu">
+	                <li><a href="#">Hollywood</a></li>
+	                <li><a href="#">Bollywood</a></li>
+	                <li><a href="#">Tollywood</a></li>
+	                <li><a href="#">Malluwood</a></li>
+	                <li><a href="#">koliwood</a></li> 
+	              </ul>
+	            </div>
+	            <input type="text" class="form-control" id="input_search" placeholder="Search your movie here">
+	            <span class="input-group-addon" onclick="searchMovie()"><span class="glyphicon glyphicon-search"></span></span>
+	          </div>
+	        </div>
+	    <!-- Navbar form END -->
+      	</form>
+      </div>
+    <!-- Navbar END -->
+    </nav>
+
+    <!-- Main content -->
+	<div class="container main" role="main">
+		<div class="error"></div>
+		<div class="result"></div>
+	<!-- END -->
+	</div>
+
+	<!-- Front page -->
+	<div class="container frontPage">
+		<div class="row">
+			<div class="col-xs-6 col-md-9 well">
+				<h2>New &amp; Upcoming Movies </h2>
+				<div class="upcoming"></div>
+			</div>
+			<div class="col-xs-6 col-md-3 well">
+				<h4 class="box-office-head">Weekend box office</h4>
+				<div class="box-office"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="footer-distributed">
+		<!-- Footer Left -->
+		<div class="footer-left">
+			<img src="img/search_film.png">
+			<ul>
+				<li><a href="index.html">Hollywood</a></li>
+				<li><a href="#">Bollywood</a></li>
+				<li><a href="#">Tollywood</a></li>
+				<li><a href="#">Malluwood</a></li>
+				<li><a href="#">Koliwood</a></li>
+			</ul>
+			<p class="footer-company-name">Copyrights &copy; 2016. All Rights Reserved by Movie Search Inc</p>
+		<!-- Footer Left End -->
+		</div>
+
+		<!-- Footer Center -->
+		<div class="footer-center">
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>Opp. Forum Mall </span> Bangalore, India</p>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>080 123456</p>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:support@luxurycars.com">support@movie_search.com</a></p>
+			</div>
+		<!-- Footer Center End -->
+		</div>
+
+		<!-- Footer Right -->
+		<div class="footer-right">
+			<p class="footer-company-about">
+				<span>About our site</span>
+				it is a movie search site and we publish genuiene rating to all kinds of movies based on audiance and our experts review.
+			</p>
+			<!-- Footer Icons -->
+			<div class="footer-icons">
+				<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#" class="linkedIn"><i class="fa fa-linkedin"></i></a>
+				<a href="#" class="github"><i class="fa fa-github"></i></a>
+			</div>
+		<!-- Footer Right End -->
+		</div>
+	<!-- Footer End -->
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="css/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="css/pagination/pagination.js"></script>
+	<script type="text/javascript" src="js/movieSearch.js"></script>
+</body>
+</html>
